@@ -226,7 +226,7 @@ produtividade
 ## Exemplos
 
 
-- library.bib
+- [library.bib](https://raw.githubusercontent.com/augusto-garcia/Gerenciamento-Referencias/gh-pages/library.bib)
 
 
 ---
