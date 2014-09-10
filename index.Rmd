@@ -1,8 +1,8 @@
 --- 
-title       : Templates para Teses e Dissertações
-subtitle    : Uma proposta
-author      : A. Augusto F. Garcia, Luis Eduardo A. Camargo, Lázaro E. P. Peres, Severino M. Alencar
-job         : ESALQ/USP
+title       : Gerenciamento de Referências Bibliográficas
+subtitle    : Use seu tempo de forma eficiente!
+author      : Antonio Augusto Franco Garcia
+job         : Departamento de Genética, ESALQ/USP
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light    # era tomorrow
@@ -13,11 +13,220 @@ mode        : selfcontained # {standalone, draft}
 
 ## Introdução
 
+- O que faz um estudante/cientista/professor?
+- Atividade comum: estudar, ler, produzir conteúdo, *publicar*
+- Gerenciamento de uma grande quantidade de informações e conhecimento
+
+---
+
+## Gerenciamento de Referências
+
 - Objetivo: eficiência e produtividade
 - Usar os modernos recursos computacionais
-- Flexibilidade de procedimentos
-  - Importação de formatos
-  - Foco no conteúdo, não nos formatos e regras
+- Foco no conteúdo, não nos formatos e regras
+
+---
+
+## Informação
+
+- Livros
+- Artigos
+- Internet
+  - Vídeos
+  - Palestras 
+
+Cada vez é mais comum armazenarmos informação digital
+
+---
+
+## Formatos
+
+- Pastas suspensas com *separatas*
+- Arquivos de diferentes tipos
+
+---
+
+## Padrão atual
+
+- Arquivos (em formato *pdf* para artigos)
+- ebooks
+- Livros impressos
+- Arquivos *.mp4*
+- Lista de favoritos no *Youtube*
+  - [Youtube](http://www.youtube.com/edu)
+  - [Linear Algebra](https://www.youtube.com/results?search_query=gilbert+strang+linear+algebra)
+
+
+---
+
+## Anotações
+
+- "Marca-texto"
+- Anotações
+  - [Fermat](http://youtu.be/E7Bqx65liIE)
+- Notas de rodapé
+- Cadernos
+- "Guardanapos"
+- $\ldots$
+
+---
+
+## Informação
+
+- Onde guardei?
+- Como lembrar?
+- Estamos em 2014!
+
+---
+
+## Reprodutibilidade!
+
+- Dados experimentais (vídeos, que tal?)
+- Web
+- Códigos para analisar os dados
+  - [FOAS](http://www.foastat.org/)
+  - [ggvis](http://ggvis.rstudio.com/)
+  - [QTL](http://kbroman.org/qtlcharts/)
+  - html5
+
+---
+
+## Bagunça vs Reprodutibilidade
+
+- Você arruma sua casa antes de receber visitas?
+- Você gostaria que alguém repetisse as análises que você fez na sua
+tese?
+- E nos artigos já publicados?
+  - (Fiz isso no meu pós-doc)
+
+---
+
+## Docentes/Responsabilidade
+
+- Referências Bibliográficas: um *ótimo* primeiro passo
+- Lembre-se, temos o dever ético de citar corretamente o trabalho de
+outros autores
+- Há outros pontos:
+  - Somos funcionários públicos: a sociedade não espera que usemos
+    nosso tempo corrigindo se todos os artigos estão citados no texto,
+    e vice-versa! (É fácil pensar em vários outros exemplos)
+  - Uso eficiente do tempo é bom para todos
+- Novas normas para Teses e Dissertações
+
+---
+
+## Tenho algo a dizer?
+
+- Docente
+- Editor de periódicos
+- Genética Estatística
+  - Softwares
+  - Colaborações
+  - Dados de diferente natureza
+- Alunos
+- $\LaTeX$
+- Páginas pessoais: [about.me](http://about.me/augusto.garcia), [página pessoal](http://augusto-garcia.github.io/), [Lab](http://statgen.esalq.usp.br)
+
+---
+
+## Reprodutibilidade
+
+- Os arquivos estão seguros?
+- Vou conseguir abri-los daqui 10 anos?
+- Consigo *ter acesso as informações* de forma eficiente?
+- Metadados?
+- Vários critérios de buscas?
+  - Pastas suspensas: classificação unidimensional
+
+---
+
+## Programas
+
+- Uôrdi, Equicél, Pouerpóinti
+- SAS
+- $\ldots$
+- Licenças institucionais (USP)
+- Pirataria
+
+---
+
+## Não seja ingênuo!
+
+- iOS vs Android
+- Windows Phone (Microsoft)
+- Tizen (Samsung)
+- Kindle (Amazon)
+
+---
+
+## Portabilidade
+
+- *Arquivos texto* são os melhores!
+  - [The Power of Plain Text](http://c2.com/cgi/wiki?PowerOfPlainText)
+- Arquivos texto vs binários
+- Excel vs .csv
+- Linux
+- git
+
+---
+
+## Retrógrado? Desatualizado?
+
+- É óbvio que precisamos de *interfaces* para interagir com os
+arquivos
+- Base de dados é diferente de trabalhar com os arquivos
+- (Sim, o Excel abre e grava arquivos em .csv)
+- pdf é formato binário, mas é possível facilmente convertê-lo em
+texto
+- O CV Lattes não permite isso, já que não podemos baixar a base de
+  dados, apenas binários
+
+---
+
+## Referências Bibliográficas
+
+- Grande parte do seu tempo (tomara!) será dispendido lendo/escrevendo
+publicações
+- Será preciso constantemente retornar as anotações e fazer diferentes
+buscas
+- Logo, qualquer investimento de tempo tem elevado retorno na
+produtividade
+- O novo formato de Teses e Dissertações prevê o uso de algum
+  gerenciador de referências (mas não obriga tal uso)
+
+---
+
+## Demonstração
+
+- Emacs + R + BibTex
+- Código fonte destes slides
+
+---
+
+## BibTex
+
+- [BibTex](http://www.bibtex.org/)
+- Formato texto, portátil, versátil, *lingua franca*
+- Associado ao $\LaTeX$, mas não necessariamente
+
+---
+
+## Formato
+
+```{r eval = FALSE}
+@misc{ patashnik-bibtexing,
+       author = "Oren Patashnik",
+       title = "BIBTEXing",
+       year = "1988" }
+```
+
+---
+
+## Exemplos
+
+
+- library.bib
+
 
 ---
 
