@@ -225,10 +225,94 @@ produtividade
 ## Exemplos
 
 
-- [library.bib](https://raw.githubusercontent.com/augusto-garcia/Gerenciamento-Referencias/gh-pages/library.bib)
+-
+[library.bib](https://raw.githubusercontent.com/augusto-garcia/Gerenciamento-Referencias/gh-pages/library.bib)
 
+Mais detalhes: [Wikibooks](http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management)
+
+
+--- .segue .dark .quote
+
+<q class = 'yellow'> Seja esperto. Crie sua base de dados em formatos
+que não sejam dependentes de programas específicos. </q>
 
 ---
+
+## Gerenciadores de Referências
+
+  1. [Mendeley](http://www.mendeley.com/)
+  2. [Zotero](https://www.zotero.org/)
+  3. [EndNote](http://endnote.com/) (Permite exportar? CSL?)
+  4. [Papers](http://www.papersapp.com/)
+  5. [JabRef](http://jabref.sourceforge.net/)
+  6. [citeulike](http://www.citeulike.org/)
+  7. $\ldots$ (a lista é longa!)
+
+---
+
+## Pontos importantes
+
+  1. Posso importar/exportar o $\BibTex$?
+  2. Posso usar o programa para incluir as citações nos meus
+  trabalhos?
+  3. Quais são os formatos para citação disponíveis?
+
+---
+
+## Citação vs Base de Dados
+
+- Cuidado para não confundir os conceitos
+- Geralmente, os programas não deixam clara esta distinção
+
+---
+
+## Formatos para citação adotados pelas principais revistas
+
+- [Citation Styles, CSL, http://citationstyles.org](http://citationstyles.org/)
+  - Mais de 6700 estilos de citação abertos e gratuitos (hoje, 7000)
+  - As principais revistas participam e contribuem
+  - Tais formatos podem ser importados em vários programas
+  gerenciadores de referências
+
+---
+
+## Mendeley
+
+- [Mendeley](http://www.mendeley.com/)
+- Uma ótima opção
+- Gratuito, com versão paga
+- Permite exportar para $\BibTex$ (caso contrário, eu não
+recomendaria)
+- Rede Social, compartilhamento
+- Plugins para Word e [LibreOffice](https://pt-br.libreoffice.org/)
+- Permite fazer anotações e marcações de texto nos pdfs
+- Sincronização entre computadores
+- App para tablets e celulares
+- Fácil inclusão de citações em emails e outros documentos
+- Importação de Metadados de pdfs com DOI
+- Possibilidade de inclusão manual dos metadados
+
+---
+
+## Mendeley
+
+- Rápida demonstração, usando minha coleção
+
+---
+
+## Tarefas
+
+1. Assista os vídeos disponíveis no site (clique [aqui](http://www.mendeley.com/features/))
+2. Abra uma conta
+3. Baixe e instale o programa
+4. Adicione algum dos seus colegas na sua rede de relacionamentos
+5. Adicione a sua coleção os pdfs disponíveis [aqui](); corrija os
+   metados se necessário
+6. Crie os metadados para um livro para o qual você não possui o pdf,
+mas vai citá-lo na tese
+7. 
+
+
 
 ## Formato Atual
 
