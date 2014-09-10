@@ -1,7 +1,7 @@
 --- 
 title       : Gerenciamento de Referências Bibliográficas
 subtitle    : Use seu tempo de forma eficiente!
-author      : Antonio Augusto Franco Garcia
+author      : Antonio Augusto Franco Garcia (http://about.me/augusto.garcia)
 job         : Departamento de Genética, ESALQ/USP
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
@@ -15,7 +15,15 @@ mode        : selfcontained # {standalone, draft}
 
 - O que faz um estudante/cientista/professor?
 - Atividade comum: estudar, ler, produzir conteúdo, *publicar*
-- Gerenciamento de uma grande quantidade de informações e conhecimento
+- Gerenciamento de uma grande quantidade de informação e conhecimento
+
+---
+
+## Gerenciamento de Referências
+
+- Objetivo: eficiência e produtividade
+- Usar os modernos recursos computacionais
+- Foco no conteúdo, não nos formatos e regras
 
 --- bg:#fee6ce
 
@@ -27,16 +35,6 @@ mode        : selfcontained # {standalone, draft}
 - Atividade prática
 - Discussões
 
-
----
-
-
-## Gerenciamento de Referências
-
-- Objetivo: eficiência e produtividade
-- Usar os modernos recursos computacionais
-- Foco no conteúdo, não nos formatos e regras
-
 ---
 
 ## Informação
@@ -45,7 +43,10 @@ mode        : selfcontained # {standalone, draft}
 - Artigos
 - Internet
   - Vídeos
-  - Palestras 
+  - Palestras
+- Cadernos
+- Tablets
+- $\ldots$
 
 Cada vez é mais comum armazenarmos informação digital
 
@@ -66,7 +67,7 @@ Cada vez é mais comum armazenarmos informação digital
 - Arquivos *.mp4*
 - Lista de favoritos no *Youtube*
   - [Youtube](http://www.youtube.com/edu)
-  - [Linear Algebra](https://www.youtube.com/results?search_query=gilbert+strang+linear+algebra)
+  - Exemplo: [Linear Algebra](https://www.youtube.com/results?search_query=gilbert+strang+linear+algebra)
 
 
 ---
@@ -75,7 +76,7 @@ Cada vez é mais comum armazenarmos informação digital
 
 - "Marca-texto"
 - Anotações
-  - [Fermat](http://youtu.be/E7Bqx65liIE)
+  - Exemplo: [Fermat](http://youtu.be/E7Bqx65liIE)
 - Notas de rodapé
 - Cadernos
 - "Guardanapos"
@@ -91,7 +92,7 @@ Cada vez é mais comum armazenarmos informação digital
 
 ---
 
-## Reprodutibilidade!
+## Reprodutibilidade
 
 - Dados experimentais (vídeos, que tal?)
 - Web
@@ -205,13 +206,8 @@ buscas
 produtividade
 - O novo formato de Teses e Dissertações prevê o uso de algum
   gerenciador de referências (mas não obriga tal uso)
+- (Dica: aprenda também a usar um Editor de Textos decente)
 
----
-
-## Demonstração
-
-- Emacs + R + BibTex
-- Código fonte destes slides
 
 ---
 
@@ -234,8 +230,20 @@ produtividade
 
 ---
 
-## Exemplos
 
+## Demonstração
+
+- Emacs + R + $BibTex$
+- Código fonte destes slides (remover os comentários do código)
+
+```{r md-cars-scatter,  eval=FALSE, echo=FALSE, message=FALSE, fig.width=7, fig.height=5}
+library(ggplot2)
+qplot(hp, mpg, data=mtcars)+geom_smooth() 
+```
+
+---
+
+## Exemplos
 
 -
 [library.bib](https://raw.githubusercontent.com/augusto-garcia/Gerenciamento-Referencias/gh-pages/library.bib)
@@ -245,8 +253,8 @@ Mais detalhes: [Wikibooks](http://en.wikibooks.org/wiki/LaTeX/Bibliography_Manag
 
 --- .segue .dark .quote
 
-<q class = 'yellow'> Seja esperto. Crie sua base de dados em formatos
-que não sejam dependentes de programas específicos. </q>
+<q class = 'yellow'> Seja esperto. Crie sua base de dados em formato
+que não seja dependente de programas específicos. </q>
 
 ---
 
@@ -264,10 +272,11 @@ que não sejam dependentes de programas específicos. </q>
 
 ## Pontos importantes
 
-  1. Posso importar/exportar o $\BibTex$?
+  1. Posso importar/exportar para o $BibTex$?
   2. Posso usar o programa para incluir as citações nos meus
   trabalhos?
   3. Quais são os formatos para citação disponíveis?
+  4. Posso expandir estes formatos?
 
 ---
 
@@ -292,8 +301,8 @@ que não sejam dependentes de programas específicos. </q>
 
 - [Mendeley](http://www.mendeley.com/)
 - Uma ótima opção
-- Gratuito, com versão paga
-- Permite exportar para $\BibTex$ (caso contrário, eu não
+- Gratuito, com versão paga (espaço para arquivos; coleções compartilhadas)
+- Permite exportar para $BibTex$ (caso contrário, eu não
 recomendaria)
 - Rede Social, compartilhamento
 - Plugins para Word e [LibreOffice](https://pt-br.libreoffice.org/)
@@ -343,7 +352,7 @@ organizados
 
 12. Exporte sua coleção para o formato $BibTex$
     - Está mais confiante que sua coleção está segura agora?
-    - (Nem tudo é perfeito; onde estão as anotações nos pdfs? Note
+    - (Nem tudo é perfeito; onde estão as "marcações" nos pdfs? Note
       que este é um problema típico dos arquivos binários)
 
 ---
